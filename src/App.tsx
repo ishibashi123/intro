@@ -23,5 +23,5 @@ export const App = () => {
 const sx: SxProps<Theme> = {
   "&.App": {
     width: "100%",
-  }
+  },
 };
