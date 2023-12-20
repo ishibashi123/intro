@@ -1,9 +1,9 @@
 import { Box, SxProps, Theme } from "@mui/material";
-import Img from "/Users/chikuwanonakami/Desktop/sibu/front-work-base/src/resources/work1/images/re.jpg"
-import Img2 from "/Users/chikuwanonakami/Desktop/sibu/front-work-base/src/resources/work1/images/nazo.jpg"
-import Img3 from "/Users/chikuwanonakami/Desktop/sibu/front-work-base/src/resources/work1/images/iyd.jpeg"
-import Img4 from "/Users/chikuwanonakami/Desktop/sibu/front-work-base/src/resources/work1/images/aki.jpeg"
-import Img5 from "/Users/chikuwanonakami/Desktop/sibu/front-work-base/src/resources/work1/images/huyu.png"
+import Img from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/re.jpg"
+import Img2 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/nazo.jpg"
+import Img3 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/iyd.jpeg"
+import Img4 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/aki.jpeg"
+import Img5 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/huyu.png"
 
 
 export const MainContent = () => {
