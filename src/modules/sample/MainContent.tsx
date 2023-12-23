@@ -1,15 +1,14 @@
 import { Box, SxProps, Theme } from "@mui/material";
 import Img from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/re.jpg"
 import Img2 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/nazo.jpg"
-import Img3 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/iyd.jpeg"
-import Img4 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/aki.jpeg"
-import Img5 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/huyu.png"
+import Imgyakei from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/yakei.png"
+
 
 
 export const MainContent = () => {
   return (
     <Box className="MainContent" sx={sx}>
-      <img width="100%" height="700px" src={Img}/>
+      <img width="100%" height="800px" src={Imgyakei}/>
 
       <Box className="yohaku" sx={sx}></Box>
 
@@ -35,28 +34,11 @@ export const MainContent = () => {
       <Box className="yohaku" sx={sx}></Box>
       <Box className="yohaku" sx={sx}></Box>
 
-      <Box className="nagatomo1" sx={sx}>
-        <a>Bicycle</a>
-      </Box>
 
-      <Box className="yohaku" sx={sx}></Box>
-      <Box className="yohaku" sx={sx}></Box>
 
-      <Box className="gazo1" sx={sx}>
-        <img width="250px" height="150px"src={Img3}/>
-      </Box>
-      <Box className="gazo2" sx={sx}>
-        <img width="250px" height="150px"src={Img4}/>
-      </Box>
-      <Box className="gazo3" sx={sx}>
-        <img width="250px" height="150px"src={Img5}/>
-      </Box>
 
-      <Box className="yohaku" sx={sx}></Box>
 
-      <Box className="tit1" sx={sx}>スーパー</Box>
-      <Box className="tit2" sx={sx}>万古千秋</Box>
-      <Box className="tit3" sx={sx}>以湯沃雪</Box>
+
 
 
 

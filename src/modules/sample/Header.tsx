@@ -1,58 +1,57 @@
+
+import React from 'react';
 import { Box, SxProps, Theme } from "@mui/material";
-import Link from '@mui/material/Link';
+import { Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import './style.css';
+
 export const Header = () => {
   return (
     <Box className="Header" sx={sx}>
-
-      <Box className="probox" sx={sx}>
-        <Link underline="none" href="#"color="inherit">{'Profile'}</Link>
+      <Box className="logo">
+        <a href="#">武蔵小杉紹介</a>
       </Box>
+      <Box className="deka" sx={sx}>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/" replace className='lists'>Home</Link>
+            </li>
 
-      <Box className="deka" sx={sx}><Link underline="none" color="inherit" href="">About</Link>　　
-      <Link underline="none" href="" color="inherit">Bicycle</Link></Box>
+            <li>
+              <Link to="/gourmet" replace className='lists'>gourmet</Link>
+            </li>
+
+            <li>
+              <Link to ="/spot" replace className='lists'>Spot</Link>
+            </li>
+
+          </ul>
+        </nav>
+        
+
+      </Box>
     </Box>
   );
 };
 
 const sx: SxProps<Theme> = {
-  "&.Header" : {
-    position:"fixed",
+  "&.Header": {
+    position: "fixed",
+    backgroundColor:"#fff8eb",
     width: "100%",
-    height:"50px",
-    backgroundColor:'#ebebeb',
-    top:"0",
-    margin:"0",
-    padding:"4px",
-    zIndex:"9999",
-    
+    height: "50px",
+    top: "0",
+    margin: "0",
+    padding: "4px",
+    zIndex: "10",
   },
 
-  "&.probox": {
-    backgroundColor:"#575757",
-    position:"absolute",
-    width:"100px",
-    height:"40px",
-    marginLeft:"300px",
-    top:"10px",
-    color:"white",
-    fontSize:"30px",
-    fontFamily:"monospace",
-    textDecoration:"none",
-  },
-
-
-  "&.": {
-
-  },
 
   "&.deka": {
-    position:"absolute",
-    left:"1000px",
-    top:"15px",
-    fontFamily:"serif"
-
-
+    position: "absolute",
+    left: "800px",
+    fontFamily: "serif",
+    
   },
-
-
 };

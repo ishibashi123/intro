@@ -6,18 +6,18 @@ import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
 
-export const TopPage = () => {
+export const SpotPage = () => {
   return (
-    <Box className="TopPage" sx={sx}>
+    <Box className="spot" sx={sx}>
       <Header />
-      <MainContent />
+      spot
     </Box>
   );
 };
-export default TopPage;
+export default SpotPage;
 
 const sx: SxProps<Theme> = {
-  "&.TopPage": {
+  "&.spot": {
     width: "100%",
     height: "1700px",
     paddingTop: "55px",

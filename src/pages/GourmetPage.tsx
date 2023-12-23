@@ -5,19 +5,21 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
+import Img from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/b.jpg";
 
-export const TopPage = () => {
+export const GourmetPage = () => {
   return (
-    <Box className="TopPage" sx={sx}>
+    <Box className="GourmetPage" sx={sx}>
       <Header />
-      <MainContent />
+        gourmet
+
     </Box>
   );
 };
-export default TopPage;
+export default GourmetPage;
 
 const sx: SxProps<Theme> = {
-  "&.TopPage": {
+  "&.GourmetPage": {
     width: "100%",
     height: "1700px",
     paddingTop: "55px",
