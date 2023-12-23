@@ -5,16 +5,18 @@ import { Box, SxProps, Theme } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import { TopPage } from "./pages/TopPage";
 import { SamplePage } from "./pages/SamplePage";
+import { GourmetPage } from "./pages/GourmetPage";
+import { SpotPage } from "./pages/SpotPage";
 
 // Appのメインの実装（表示する画面とpathを定義）
 export const App = () => {
   return (
     <Box className="App" sx={sx}>
       <Routes>
-        {/* トップページ*/}
         <Route path="/" element={<TopPage />} />
-        {/* サンプルページ */}
+        <Route path="/gourmet" element={<GourmetPage />} />
         <Route path="/sample" element={<SamplePage />} />
+        <Route path="/spot" element={<SpotPage />} />
       </Routes>
     </Box>
   );
@@ -23,5 +25,5 @@ export const App = () => {
 const sx: SxProps<Theme> = {
   "&.App": {
     width: "100%",
-  }
+  },
 };

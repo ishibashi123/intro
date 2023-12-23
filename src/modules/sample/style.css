@@ -1,0 +1,48 @@
+.logo {
+    background-color:bisque;
+    width: 130px;
+    height: 35px;
+    top:10px;
+    margin-left: 100px;
+    position: absolute;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #cc4343;
+
+
+    .logo,a {
+        font-size: 16px;
+        position: absolute;
+        left:13%;
+        top:20%;
+        font-weight:bolder;
+        font-family:serif;
+        text-decoration: none;
+        color:black;
+    }
+}
+
+.lists {
+    text-decoration: none;
+    color: black;
+
+
+    
+}
+
+.lists:hover {
+    color:rgb(196, 69, 37);
+
+}
+
+nav ul li  {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+
+
+
+

@@ -11,10 +11,8 @@ import { Footer } from "../modules/sample/Footer";
 export const SamplePage = () => {
   return (
     <Box className="SamplePage" sx={sx}>
-      <Header />
-      <Mainvisual />
-      <MainContent />
-      <Footer />
+      サンプルですー
+
     </Box>
   );
 };
