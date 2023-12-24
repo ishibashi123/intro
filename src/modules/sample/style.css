@@ -22,6 +22,15 @@
     }
 }
 
+.dekagazou {
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    margin-top: 100px;
+    opacity: 50%;
+    position: absolute;
+}
+
 .lists {
     text-decoration: none;
     color: black;
@@ -42,7 +51,129 @@ nav ul li  {
     font-size: 20px;
 }
 
+#ab {
+    display: flex;
+    align-items: center;
+    
+}
+
+#ab:before ,#ab:after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background-color: #666;
+}
+
+#ab:before {
+    margin-right: 1rem;
+}
+ 
+#ab:after {
+    margin-left: 1rem;
+}
+
+.gotu {
+    position:"relative";
+    width:100;
+    height:1100px;
+
+}
+
+.mesi1{
+    position:absolute;
+    width: 500px;
+    height:400px;
+    left:150px;
+    top:950px;
+    border: 3px solid #cc4343;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+
+}
+
+.Header {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.view{
+    position:absolute;
+    width: 500px;
+    height:400px;
+    left:800px;
+    top:1600px;
+    border: 3px solid #cc4343;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+
+}
+
+.midashi1 {
+    position: absolute;
+    text-decoration: none;
+    left:970px;
+    top:900px;
+    font-size: 50px;
+    font-family:serif;
+    margin: 0;
+    color:#cc4343;
+
+}
+
+.midashi1:hover {
+    color: rgb(7, 93, 65);
+}
+
+.midashi2:hover {
+    color: rgb(7, 93, 65);
+}
 
 
+.setumei1 {
+    position: absolute;
+    margin:0;
+    font-size: 28px;
+    font-family: serif;
+    left:800px;
+    top:1050px;
+    line-height:2;
 
+}
 
+.midashi2 {
+    position: absolute;
+    text-decoration: none;
+    left:350px;
+    top:1550px;
+    font-size: 50px;
+    font-family:serif;
+    margin: 0;
+    color:#cc4343;
+
+}
+
+.setumei2 {
+    position: absolute;
+    margin:0;
+    font-size: 28px;
+    font-family: serif;
+    left:100px;
+    top:1670px;
+    line-height:2;
+
+}
+
+.title {
+    position: absolute;
+    font-size: 20px;
+    font-family:serif;
+    left: 230px;
+    top:150px;
+
+}
+
+.lay {
+    position: absolute;
+    font-size: 40px;
+    font-family:serif;
+    top:350px;
+    left:38%;
+
+}

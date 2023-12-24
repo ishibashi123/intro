@@ -19,7 +19,7 @@ export default TopPage;
 const sx: SxProps<Theme> = {
   "&.TopPage": {
     width: "100%",
-    height: "1700px",
+    height: "2100px",
     paddingTop: "55px",
   },
 };

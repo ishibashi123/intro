@@ -8,6 +8,7 @@ import { SamplePage } from "./pages/SamplePage";
 import { GourmetPage } from "./pages/GourmetPage";
 import { SpotPage } from "./pages/SpotPage";
 
+
 // Appのメインの実装（表示する画面とpathを定義）
 export const App = () => {
   return (

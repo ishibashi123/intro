@@ -7,15 +7,15 @@ import './style.css';
 
 export const Header = () => {
   return (
-    <Box className="Header" sx={sx}>
+    <Box key="header" className="Header" sx={sx}>
       <Box className="logo">
-        <a href="#">武蔵小杉紹介</a>
+        <a href="#">むさこす紹介</a>
       </Box>
       <Box className="deka" sx={sx}>
         <nav>
           <ul>
             <li>
-              <Link to="/" replace className='lists'>Home</Link>
+              <Link to="/"replace className='lists'>Home</Link>
             </li>
 
             <li>
