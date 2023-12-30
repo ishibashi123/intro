@@ -52,6 +52,9 @@ export const MainContent = () => {
       </Box>
 
 
+      <Link to="/osuna" replace className="dame">warning</Link>
+
+
 
 
 
