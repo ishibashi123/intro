@@ -1,10 +1,8 @@
 import { Box, SxProps, Theme } from "@mui/material";
 import {Link} from "react-router-dom"
-import Img from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/re.jpg"
-import Img2 from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/nazo.jpg"
-import Imgyakei from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/yakei.png"
-import mesi from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/gourment2.png"
-import view from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/view.png"
+import Imgyakei from "./images/yakei.png"
+import mesi from "./images/gourment2.png"
+import view from "./images/view.png"
 
 import './style.css';
 

@@ -4,16 +4,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
-import Img from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/b.jpg";
-import tama from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/たまざ.png"
 import "./pagestyle2.css";
-import  gran from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/gran.png"
-import  hiyoshipark from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/hiyoshipark.png"
-import  ise from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/ise.png"
-import  tamadaipark from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/tamadaipark.png"
-import  tamashrine from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/tamashrine .png"
-import  squ from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/square.png"
-import  tairyou from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/tairyou.png"
+import  gran from "./miseimg/gran.png"
+import  hiyoshipark from "./miseimg/hiyoshipark.png"
+import  ise from "./miseimg/ise.png"
+import  tamadaipark from "./miseimg/tamadaipark.png"
+import  tamashrine from "./miseimg/tamashrine .png"
+import  squ from "./miseimg/square.png"
+import  tairyou from "./miseimg/tairyou.png"
 
 
 

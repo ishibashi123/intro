@@ -5,17 +5,16 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
 import SendIcon from "@mui/icons-material/Send";
-import Img from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/resources/work1/images/b.jpg";
-import kamaage from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/kamaage.png"
-import karayama from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/karayama.png"
-import matsuya from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/matsuya.png"
-import yosinoya from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/yosinoya.png"
-import makudo from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/makudo.png"
-import sub from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/sub.png"
-import gasuto from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/gasuto.png"
-import sukiya from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/sukiya.png"
-import saize from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/saize.png"
-import mos from "/Users/chikuwanonakami/Desktop/introducting/hp-work/src/miseimg/mos.png"
+import kamaage from "./miseimg/kamaage.png"
+import karayama from "./miseimg/karayama.png"
+import matsuya from "./miseimg/matsuya.png"
+import yosinoya from "./miseimg/yosinoya.png"
+import makudo from "./miseimg/makudo.png"
+import sub from "./miseimg/sub.png"
+import gasuto from "./miseimg/gasuto.png"
+import sukiya from "./miseimg/sukiya.png"
+import saize from "./miseimg/saize.png"
+import mos from "./miseimg/mos.png"
 import './pagestyle.css';
 
 
