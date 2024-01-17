@@ -7,7 +7,6 @@ import { TopPage } from "./pages/TopPage";
 import { SamplePage } from "./pages/SamplePage";
 import { GourmetPage } from "./pages/GourmetPage";
 import { SpotPage } from "./pages/SpotPage";
-import {Osuna} from "./pages/Osuna";
 import ScrollToTop from "./ScrollTop";
  
 
@@ -21,7 +20,6 @@ export const App = () => {
         <Route path="/gourmet" element={<GourmetPage />} />
         <Route path="/sample" element={<SamplePage />} />
         <Route path="/spot" element={<SpotPage />} />
-        <Route path="/osuna" element={<Osuna />} />
       </Routes>
     </Box>
   );

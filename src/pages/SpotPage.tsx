@@ -104,7 +104,7 @@ export default SpotPage;
 const sx: SxProps<Theme> = {
   "&.SpotPage": {
     width: "100%",
-    height: "7200px",
+    height: "5000px",
     paddingTop: "55px",
   },
 
